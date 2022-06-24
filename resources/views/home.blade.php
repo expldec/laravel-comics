@@ -5,5 +5,11 @@
 @endsection
 
 @section('main_content')
-<h1>Ciao</h1>
+<div class="banner"></div>
+
+@include('components.comic-list', [
+                'section_title' => 'Current Series',
+                'comic_array' => $comic_array,
+            ])
+
 @endsection

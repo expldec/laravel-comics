@@ -56,6 +56,17 @@ main .banner {
   left: 0;
 }
 
+.comics__item {
+  width: 16.6666666667%;
+  padding: 0.5rem;
+}
+.comics__item h3 {
+  color: white;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
 .header {
   height: 6rem;
 }

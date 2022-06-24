@@ -21,7 +21,3 @@ Route::get('/', function () {
     // dd($comic_array);
     return view('home', $data);
 })->name('home');
-
-Route::get('/test', function () {
-    return view('test');
-})->name('test');

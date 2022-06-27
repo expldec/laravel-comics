@@ -33,12 +33,12 @@ main {
     width: calc(100% / 6);
     padding: 0.5rem;
     h3 {
-      color: white;
-      font-size: 1rem;
-      text-transform: uppercase;
-      font-weight: 300;
+        color: white;
+        font-size: 1rem;
+        text-transform: uppercase;
+        font-weight: 300;
     }
-  }
+}
 
 .comic-detail {
     .title-bar {
@@ -53,6 +53,46 @@ main {
                 left: 0;
                 img {
                     display: block;
+                }
+            }
+        }
+    }
+    .comic-title {
+        margin: 3rem 0 1rem;
+    }
+    .info-bar {
+        padding: 1rem;
+        background-color: $green-bg;
+        color: $green-light;
+        .price {
+            color: white;
+        }
+    }
+    .comic-description {
+        padding: 1rem 0;
+    }
+    .comic-data {
+        border-top: 1px solid $bg-midgrey;
+        border-bottom: 1px solid $bg-midgrey;
+        padding: 1rem 0;
+        background-color: $bg-lightgrey;
+        .container {
+            display: flex;
+            justify-content: space-between;
+            .talent,
+            .specs {
+                width: 47%;
+            }
+            .line {
+                display: flex;
+                padding: 1rem 0;
+                border-bottom: 1px solid $bg-midgrey;
+                .line-name {
+                    flex-basis: 30%;
+                }
+                .line-content {
+                    flex-basis: 70%;
+                    font-weight: 300;
                 }
             }
         }

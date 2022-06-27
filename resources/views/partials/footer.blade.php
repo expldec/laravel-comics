@@ -54,27 +54,27 @@
           <ul>
             <li>
               <a href="#"
-                ><img src="../assets/img/footer-facebook.png" alt=""
+                ><img src="../images/footer-facebook.png" alt=""
               /></a>
             </li>
             <li>
               <a href="#"
-                ><img src="../assets/img/footer-twitter.png" alt=""
+                ><img src="../images/footer-twitter.png" alt=""
               /></a>
             </li>
             <li>
               <a href="#"
-                ><img src="../assets/img/footer-youtube.png" alt=""
+                ><img src="../images/footer-youtube.png" alt=""
               /></a>
             </li>
             <li>
               <a href="#"
-                ><img src="../assets/img/footer-pinterest.png" alt=""
+                ><img src="../images/footer-pinterest.png" alt=""
               /></a>
             </li>
             <li>
               <a href="#"
-                ><img src="../assets/img//footer-periscope.png" alt=""
+                ><img src="../images/footer-periscope.png" alt=""
               /></a>
             </li>
           </ul>

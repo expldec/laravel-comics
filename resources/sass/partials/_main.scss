@@ -39,3 +39,22 @@ main {
       font-weight: 300;
     }
   }
+
+.comic-detail {
+    .title-bar {
+        height: 3rem;
+        background-color: $brand-primary-color;
+        .container {
+            position: relative;
+            .comic-thumb {
+                position: absolute;
+                outline: 1px solid white;
+                bottom: -2rem;
+                left: 0;
+                img {
+                    display: block;
+                }
+            }
+        }
+    }
+}

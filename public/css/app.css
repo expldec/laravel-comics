@@ -67,6 +67,23 @@ main .banner {
   font-weight: 300;
 }
 
+.comic-detail .title-bar {
+  height: 3rem;
+  background-color: #0282f9;
+}
+.comic-detail .title-bar .container {
+  position: relative;
+}
+.comic-detail .title-bar .container .comic-thumb {
+  position: absolute;
+  outline: 1px solid white;
+  bottom: -2rem;
+  left: 0;
+}
+.comic-detail .title-bar .container .comic-thumb img {
+  display: block;
+}
+
 .header {
   height: 6rem;
 }
